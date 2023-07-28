@@ -1,0 +1,28 @@
+name: tests-and-linter-check
+
+on:
+  push:
+    branches: [ main ]
+  
+  workflow_dispatch:
+
+jobs:
+  tests-and-linter-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Init venv
+        run: |
+          python -m venv .venv
+          source .venv/bin/activate
+          echo "PATH=$PATH" >> $GITHUB_ENV
+ 
+      - name: Install depenpencies
+        run: |
+          pip install poetry
+          poetry install
+                
+      - name: Run lint task
+        run: poetry run flake8 menu_app
