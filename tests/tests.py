@@ -104,5 +104,4 @@ def test_read_deleted_menu():
     resp = requests.get(f'{LOCAL_URL}/api/v1/menus/{menu_id}')
 
     assert resp.status_code == 404
-    print(resp.__dict__)
     assert resp.json()['detail'] == 'menu not found'
