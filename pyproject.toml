@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ylab-university-python-intensive-project-tests"
+version = "0.1.0"
+description = ""
+authors = ["Sergey Martynov <acemore@mail.ru>"]
+readme = "README.md"
+packages = [{include = "tests"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
