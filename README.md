@@ -1,2 +1,2 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/641434d90d507f0dd7c3/maintainability)](https://codeclimate.com/github/Acemore/YLab_University_python_intensive_project_tests/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/dbd958737769c930b71e/maintainability)](https://codeclimate.com/github/Acemore/YLab_University_python_intensive_project_tests/maintainability)
 [![tests-and-linter-check](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/tests_and_linter.yml/badge.svg?branch=main)](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/tests_and_linter.yml)
