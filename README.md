@@ -1,4 +1,4 @@
-[![tests-and-linter-check](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/tests_and_linter.yml/badge.svg?branch=main)](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/tests_and_linter.yml)
+[![linter-check](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/linter.yml/badge.svg?branch=main)](https://github.com/Acemore/YLab_University_python_intensive_project_tests/actions/workflows/linter.yml)
 
 ### To run tests for [**Menu app**](https://github.com/Acemore/YLab_University_python_intensive_project)
 
